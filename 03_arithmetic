@@ -1,0 +1,24 @@
+//Write a C program to enter two numbers and perform all arithmetic operations.
+ #include<iostream>
+using namespace std;
+int main()
+{
+
+    int x;
+    float a,b,y,z,w;
+    cout <<"enter 1st num:";
+    cin >>a;
+    cout<<"enter 2nd num:" ;
+    cin >>b;
+    x=a+b;
+    y=a-b;
+    z=a*b;
+    w=a/b;
+    cout<< "sumation of x="<<x<<endl;
+    cout<< "subtraction of y="<<y<<endl;
+    cout<< " multiplication of z="<<z<<endl;
+    cout<<"division ox w="<<w<<endl;
+    return 0;
+
+
+}
