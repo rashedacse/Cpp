@@ -1,0 +1,16 @@
+
+//Write a C program to enter base and height of a triangle and find its area
+
+
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+
+     float b,h,area;
+     cout<<"Enter h and b:" ;
+     cin>>b>>h;
+     area=.5*(b*h);
+     cout<<area<<endl;
+}
