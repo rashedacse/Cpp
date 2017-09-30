@@ -1,0 +1,14 @@
+
+//Write a C program to calculate area of an equilateral triangle.
+
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+    float a,area;
+     cout<<"Enter a:" ;
+     cin>>a;
+     area=(sqrt(3)/4)*(a*a);
+     cout<<area<<endl;
+}
