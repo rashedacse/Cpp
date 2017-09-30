@@ -13,6 +13,10 @@ C plus plus PLUS
 
 06.Write a C program to enter temperature in Celsius and convert it into Fahrenheit.
 
+07.Write a C program to convert days into years, weeks and days.
+
+
+
 
 
 
