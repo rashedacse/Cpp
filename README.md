@@ -19,6 +19,8 @@ C plus plus PLUS
 
 09.Write a C program to enter any number and calculate its square root.
 
+10.Write a C program to enter two angles of a triangle and find the third angle.
+
 
 
 
