@@ -25,6 +25,12 @@ C plus plus PLUS
 
 12.Write a C program to calculate area of an equilateral triangle.
 
+13.Write a C program to enter marks of five subjects and calculate total, average and percentage.
+
+
+
+
+
 
 
 
