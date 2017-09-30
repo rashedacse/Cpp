@@ -17,6 +17,13 @@ C plus plus PLUS
 
 08.Write a C program to find power of any number x ^ y
 
+09.Write a C program to enter any number and calculate its square root.
+
+
+
+
+
+
 
 
 
