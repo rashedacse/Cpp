@@ -1,0 +1,17 @@
+
+//Write a C program to enter two angles of a triangle and find the third angle
+
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+
+     int a,b;
+     float c;
+     cout<<"Enter two angle:";
+     cin>>a>>b;
+     c=180-(a+b);
+     cout<<"the 3rd angle is:"<<c<<endl;
+
+}
