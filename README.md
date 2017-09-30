@@ -11,4 +11,8 @@ C plus plus PLUS
 
 05.Write a Program take input from keyboard & find  Area Of Rectanguler in CPP
 
+06.Write a C program to enter temperature in Celsius and convert it into Fahrenheit.
+
+
+
 
