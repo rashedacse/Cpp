@@ -1,0 +1,47 @@
+
+//Write a C program to enter any number and calculate its square root.
+
+
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+
+    int num;
+    double ans;
+    cout<<"Enter any Num: ";
+    cin>>num;
+   // ans=pow(num,0.5);
+   ans=sqrt(num);
+    cout<<"\n Squre of "<<num<<" is: "<<ans;
+
+}
+
+//Write a C program to enter any number and calculate its square root.
+
+
+/*#include<iostream>
+#include<math.h>
+using namespace std;
+
+int sqRoot(int n){
+    double r;
+    r=sqrt(n);
+    return o;
+    }*/
+
+//int main()
+//{
+    //double re;
+    //re=sqRoot(6);
+    //cout.precision(17);
+   // cout << "The result is " <<re<<endl ;
+//long x = 6;
+	//double result = sqrt(x);
+	//cout << "Square root of " << x << " is " << result << endl;
+
+	//return 0;
+
+//}
+
