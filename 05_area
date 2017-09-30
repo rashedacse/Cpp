@@ -1,1 +1,16 @@
 
+//Write a Program take input from keyboard & find  Area Of Rectanguler in CPP
+#include<iostream>
+using namespace std;
+int main()
+{
+
+     float l,w,area;
+     cout<<"Enter length:";
+     cin >>l;
+     cout<<"Enter width:";
+     cin >>w;
+     area=(l*w) ;
+     cout<<"Area of rectangular:"<<area<<endl;
+     return 0;
+}
