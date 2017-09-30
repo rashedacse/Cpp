@@ -21,7 +21,12 @@ C plus plus PLUS
 
 10.Write a C program to enter two angles of a triangle and find the third angle.
 
-11.Write a C program to enter base and height of a triangle and find its area
+11.Write a C program to enter base and height of a triangle and find its area.
+
+12.Write a C program to calculate area of an equilateral triangle.
+
+
+
 
 
 
