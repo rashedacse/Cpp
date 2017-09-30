@@ -1,0 +1,26 @@
+
+//Write a C program to enter marks of five subjects and calculate total, average and percentage.
+
+
+#include<iostream>
+#include<math.h>
+using namespace std;
+
+int main(){
+
+    float avg,sum=0;
+    int i,mark[100];
+    cout<<"Enter marks of 5 subject: p,c,m,b,e :\n";
+    for(i=0;i<5;i++)
+    {
+         cin>>mark[i];
+         sum=sum+mark[i];
+
+    }
+    cout<<"total="<<sum<<endl;
+    avg=sum/5;
+    double per;
+    per=(sum/500);
+    cout<< "average="<<avg<<endl;
+    cout<<"percentage= "<<per<<endl;
+}
