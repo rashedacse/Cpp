@@ -27,6 +27,14 @@ C plus plus PLUS
 
 13.Write a C program to enter marks of five subjects and calculate total, average and percentage.
 
+14.Write a C program to enter Pricipal, Time, Rate and calculate Compound Interest.
+
+
+
+
+
+
+
 
 
 
