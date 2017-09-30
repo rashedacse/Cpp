@@ -15,6 +15,11 @@ C plus plus PLUS
 
 07.Write a C program to convert days into years, weeks and days.
 
+08.Write a C program to find power of any number x ^ y
+
+
+
+
 
 
 
