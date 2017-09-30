@@ -29,6 +29,10 @@ C plus plus PLUS
 
 14.Write a C program to enter Pricipal, Time, Rate and calculate Compound Interest.
 
+CPP Function:
+
+15.
+
 
 
 
