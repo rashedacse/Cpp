@@ -39,6 +39,8 @@ CPP Function:
 
 18.Write a C++ program to find perfect number.
 
+19.Write a C++ program to check perfect number.
+
 
 
 
