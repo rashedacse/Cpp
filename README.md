@@ -35,6 +35,8 @@ CPP Function:
 
 16.Write a C++ program binary search.
 
+17.Write a C++ program even/odd number.
+
 
 
 
