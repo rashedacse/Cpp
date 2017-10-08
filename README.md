@@ -33,6 +33,8 @@ CPP Function:
 
 15.Write a C++ program to find sorting using bubble sort.
 
+16.Write a C++ program binary search.
+
 
 
 
