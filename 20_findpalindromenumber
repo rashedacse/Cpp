@@ -1,0 +1,26 @@
+// Find palindrome  number.
+
+#include<iostream>
+using namespace std;
+int main()
+{
+
+    int n,min,max,sum,rem,temp;
+    cout<<"Enter min nember:";
+    cin>>min;
+    cout<<"Enter max number:";
+    cin>>max;
+    for(n=min;n<=max;n++)
+    {  temp=n,sum=0;
+        while(temp)
+        {
+            rem=temp%10;
+            temp=temp/10;
+            sum=sum*10+rem;
+        }
+        if(n==sum)
+        {
+            cout<<"\n"<<n ;
+        }
+    }
+}
