@@ -41,6 +41,8 @@ CPP Function:
 
 19.Write a C++ program to check perfect number.
 
+20.Write a C++ program to find palindrome number.
+
 
 
 
