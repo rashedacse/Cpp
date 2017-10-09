@@ -49,6 +49,8 @@ CPP Function:
 
 23.Write a C++ program to delete element from arrey using location.
 
+24.Write a C++ program to insert element from arrey using location.
+
 
 
 
