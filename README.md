@@ -43,7 +43,9 @@ CPP Function:
 
 20.Write a C++ program to find palindrome number.
 
-21.Write a C++ program to check palindrome number
+21.Write a C++ program to check palindrome number.
+
+22.Write a C++ program to check prime number.
 
 
 
