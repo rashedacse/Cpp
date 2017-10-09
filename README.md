@@ -47,6 +47,8 @@ CPP Function:
 
 22.Write a C++ program to check prime number.
 
+23.Write a C++ program to delete element from arrey using location.
+
 
 
 
