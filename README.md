@@ -59,6 +59,9 @@ CPP Function:
 
 28.Write a C++ program to string langth.
 
+29.Write a C++ program to string compare.
+
+
 
 
 
