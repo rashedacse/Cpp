@@ -14,3 +14,28 @@ int main()
     strrev(a);
     cout<<"The reverse string\n"<<a;
 }
+
+/*//Without using library function.
+
+#include<iostream>
+#include<string.h>
+#include<conio.h>
+#include<stdio.h>
+using namespace std;
+int main()
+{
+    int i,j;
+    char a[100],temp;
+    cout<<"Enter a string to reverse:";
+    gets(a);
+    i=0; j=strlen(a)-1;
+    while(i<j)
+    {
+        temp=a[i];
+        a[i]=a[j];
+        a[j]=temp;
+        i++;
+        j--;
+    }
+    cout<<"Reverse of entered string is:\n"<<a;
+}*/
