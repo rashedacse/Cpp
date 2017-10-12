@@ -14,3 +14,25 @@ int main()
     }
     cout<<"The factorial is =  "<<f;
 }
+
+/* #include<iostream>
+using namespace std;
+long fact(long n);
+int main()
+{
+    int n,f;
+    cout<<"Enter a number:  ";
+    cin>>n;
+    f=fact(n);
+    cout<<"The factorial is =  "<<f;
+    return 0;
+}
+long fact(long n)
+{
+    if(n==1)
+    {return 1;
+    }
+    else{
+        return (n*fact(n-1));
+    }
+}*/
