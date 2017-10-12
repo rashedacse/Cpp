@@ -1,0 +1,14 @@
+// String length.
+
+#include<iostream>
+#include<string.h>
+using namespace std;
+int main()
+{
+    char a[60];
+    int length;
+    cout<<"Enter a string;\n";
+    cin>>a;
+    length=strlen(a);
+    cout<<"The langth of the string: "<<length;
+}
