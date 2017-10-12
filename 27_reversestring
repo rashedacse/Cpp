@@ -1,0 +1,16 @@
+// Reverse string.
+
+#include<iostream>
+#include<string.h>
+#include<conio.h>
+#include<stdio.h>
+using namespace std;
+int main()
+{
+    char a[100];
+    cout<<"Enter string that u want to reverse: ";
+    //cin>>a;
+    gets(a);
+    strrev(a);
+    cout<<"The reverse string\n"<<a;
+}
