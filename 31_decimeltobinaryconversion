@@ -1,0 +1,58 @@
+// Decimel to binary number.
+
+/*#include<iostream>
+using namespace std;
+long decimeltobinary(long n);
+int main()
+{
+    int long decimel,binary;
+    cout<<"Enter a decimel number:   ";
+    cin>>decimel;
+    cout<<"The binary form is:\n"<<decimeltobinary(decimel);
+}
+long decimeltobinary(long n)
+{
+
+    int rem;
+    long binary=0,i=1;
+    while(n!=0)
+    {
+        rem=n%2;
+        n=n/2;
+       // binary=binary*2+rem;
+        binary=binary+(i*rem);
+        i=i*10;
+    }
+    return binary;
+}*/
+
+//binary to decimel.
+
+#include<iostream>
+#include<math.h>
+using namespace std;
+long binarytodecimel(long n);
+int main()
+{
+    int long binary;
+    cout<<"Enter a binary number:   ";
+    cin>>binary;
+    cout<<"The binary form is:\n"<<binarytodecimel(binary);
+}
+long binarytodecimel(long n)
+{
+    int rem;
+    long decimel=0,i=0;
+    while(n!=0)
+    {
+
+        rem=n%10;
+        n=n/10;
+        decimel=decimel+(rem*pow(2,i));
+        i++;
+    }
+    return decimel;
+}
+
+
+
