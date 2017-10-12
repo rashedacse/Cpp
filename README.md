@@ -57,6 +57,9 @@ CPP Function:
 
 27.Write a C++ program to reverse string.
 
+28.Write a C++ program to string langth.
+
+
 
 
 
