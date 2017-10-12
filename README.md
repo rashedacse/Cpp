@@ -51,6 +51,8 @@ CPP Function:
 
 24.Write a C++ program to insert element from arrey using location.
 
+25.Write a C++ program to linear search.
+
 
 
 
