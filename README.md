@@ -63,6 +63,10 @@ CPP Function:
 
 30.Write a C++ program to see leapyear.
 
+31.Write a C++ program to find factorial.
+
+
+
 
 
 
