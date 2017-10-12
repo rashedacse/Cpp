@@ -53,7 +53,9 @@ CPP Function:
 
 25.Write a C++ program to linear search.
 
-26..Write a C++ program to reverse number.
+26.Write a C++ program to reverse number.
+
+27.Write a C++ program to reverse string.
 
 
 
