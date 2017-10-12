@@ -1,0 +1,16 @@
+// Factorial number.
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n,k;
+    cout<<"Enter a number:  ";
+    cin>>n;
+    int long f=1;
+    for(k=1;k<=n;k++)
+    {
+        f=f*k;
+    }
+    cout<<"The factorial is =  "<<f;
+}
