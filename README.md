@@ -65,6 +65,8 @@ CPP Function:
 
 31.Write a C++ program to find factorial.
 
+33.Write a C++ program to find half pascal.
+
 
 
 
