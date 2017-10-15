@@ -67,6 +67,8 @@ CPP Function:
 
 33.Write a C++ program to find half pascal.
 
+34.Write a C++ program to find pascal.
+
 
 
 
