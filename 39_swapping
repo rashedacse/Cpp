@@ -1,0 +1,39 @@
+//3. Write a program in C to swap two numbers using function.�Test Data : �Input 1st number : 2 �Input 2nd number : 4 �Expected Output :
+//Before swapping: n1 = 2, n2 = 4  After swapping: n1 = 4, n2 = 2
+
+/*#include<iostream>
+#include<math.h>
+using namespace std;
+int swap(int,int);
+int main()
+{
+    int a,b,result;
+    cout<<"enter two number a& b="; cin>>a>>b;
+    swap(a,b);
+    //return 0;
+}
+int swap(int a,int b)
+{   int temp;
+    temp=a;
+    a=b;
+    b=temp;
+    cout<<"after swapping= "<<a<<"and"<<b;
+}*/
+
+//swap 2 numbers using pointers in C
+#include<stdio.h>
+#include<conio.h>
+#include<iostream>
+using namespace std;
+int main()
+{
+    int x,y,*a,*b,temp;
+    cout<<"Enter two numbers:";
+    cin>>x>>y;
+    a=&x;
+    b=&y;
+    temp=*a;
+    *a=*b;
+    *b=temp;
+    cout<<"Afrer swapping: "<<x<<" and "<<y;
+}
