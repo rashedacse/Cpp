@@ -69,6 +69,8 @@ CPP Function:
 
 34.Write a C++ program to find pascal.
 
+35.Write a C++ program to find farenhite to kelvin.
+
 
 
 
