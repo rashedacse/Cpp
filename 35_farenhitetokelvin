@@ -1,0 +1,9 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    float f,k;
+    cout<<"Enter farenhite: "; cin>>f;
+    k=(5*(f-32))/9+273;
+    cout<<"The kalvin temp: "<<k<<"\t";
+}
