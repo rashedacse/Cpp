@@ -71,6 +71,8 @@ CPP Function:
 
 35.Write a C++ program to find farenhite to kelvin.
 
+36.Write a C++ program to find sentence reverse.
+
 
 
 
