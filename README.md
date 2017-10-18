@@ -73,6 +73,8 @@ CPP Function:
 
 36.Write a C++ program to find sentence reverse.
 
+37.Write a C++ program to find square pattern.
+
 
 
 
