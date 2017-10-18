@@ -77,6 +77,8 @@ CPP Function:
 
 38.Write a C++ program to find full pyramid.
 
+39.Write a C++ program to find swapping.
+
 
 
 
