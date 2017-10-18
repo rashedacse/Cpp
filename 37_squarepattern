@@ -1,0 +1,22 @@
+
+//Square pattern:
+//*****
+//*****
+//*****
+
+#include <iostream>
+#include<stdio.h>
+#include<conio.h>
+using namespace std;
+int main()
+{
+    int i,j,n;
+    cout<<"ENter side:";
+    cin>>n;
+    for(i=1;i<=n;i++)
+    {
+        for(j=1;j<=n;j++)
+        cout<<"*" ;
+        cout<<"\n" ;
+    }
+}
