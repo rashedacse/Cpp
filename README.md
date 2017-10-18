@@ -75,6 +75,8 @@ CPP Function:
 
 37.Write a C++ program to find square pattern.
 
+38.Write a C++ program to find full pyramid.
+
 
 
 
