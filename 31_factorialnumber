@@ -7,7 +7,7 @@ int main()
     int n,k;
     cout<<"Enter a number:  ";
     cin>>n;
-    int long f=1;
+     long f=1;
     for(k=1;k<=n;k++)
     {
         f=f*k;
@@ -36,3 +36,19 @@ long fact(long n)
         return (n*fact(n-1));
     }
 }*/
+/*/Write a C program to find the factorial using pointers
+#include <iostream>
+using namespace std;
+long fact (long n)
+{
+ if (n==1)  return 1;
+ else return n*fact(n-1);
+}
+main()
+{
+int n,*p,f;
+cout << "Enter a Number :  ";cin >>n;
+p = &n;f=fact(n);
+cout <<"The factorial value of " <<n<< " is " << f << ".";
+}*/
+
