@@ -83,6 +83,8 @@ CPP Function:
 
 41.Write a C++ program to find fibonacci series.
 
+42.Write a C++ program To perform sum of digit until singlr element is obtained.(like 1234=1+2+3+4=1)
+
 
 
 
