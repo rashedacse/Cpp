@@ -1,0 +1,13 @@
+// To perform sum of digit until singlr element is obtained.
+#include<iostream>
+using namespace std;
+int main()
+{ int n,rem;
+  cout<<"Enter a number: "; cin>>n;
+  rem=n%9;
+  if(n==0){ cout<<"Single digit result is = 0 ";}
+  else
+  { if(rem==0){ cout<<"Single digit result is = 9 ";}
+    else{ cout<<"Single digit result is = "<<rem;}
+  }
+}
