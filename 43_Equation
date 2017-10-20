@@ -1,0 +1,17 @@
+// Equation
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{ int a,b,c,r,r1,r2,d,x;
+  cout<<"Enter 3 input values: "; cin>>a>>b>>c;
+  if(a==0){ x=(-c)/b; cout<<"root"<<x;}
+  else
+  {
+   d=(b*b)-(4*a*c);
+    if(d==0) { r=(-b)/(2.0*a); cout<<"Root = "<<r;}
+    else if(d>0) {  r1=((-b)+sqrt(d))/(2.0*a); cout<<"Root1 = "<<r1;
+                    r2=((-b)-sqrt(d))/(2.0*a); cout<<"Root2 = "<<r2;}
+    else { cout<<"imaginary";}
+  }
+}
