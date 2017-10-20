@@ -89,6 +89,8 @@ CPP Function:
 
 44..Write a C++ program to find different type series.
 
+45.Write a C++ program to find GCD & LCD.
+
 
 
 
