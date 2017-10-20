@@ -85,6 +85,8 @@ CPP Function:
 
 42.Write a C++ program To perform sum of digit until singlr element is obtained.(like 1234=1+2+3+4=1)
 
+43.Write a C++ program to find root from a given equation.
+
 
 
 
