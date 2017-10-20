@@ -6,7 +6,7 @@
     for(i=1;i<=15;i++)
     {
         for(j=1;j<=15-i;j++)  cout<<" ";
-        for(j=1;j<=i;j++)   cout<<"*";
+        for(j=1;j<=i;j++)   cout<<" * ";
         cout<<"\n";
     }
 }*/
@@ -23,7 +23,7 @@ cout<<"Enter numb er of rows: "; cin>>n;
 for(i=1;i<=n;i++) //for(i=10;i>=1;i--)[Reverse order]
 {
  for(j=1;j<=n-i;j++) cout<<" ";
- for(j=1;j<=i;j++) cout<<j<<" ";
+ for(j=1;j<=i;j++) cout<<j<<"  ";
 cout<<"\n";
 }
 }
