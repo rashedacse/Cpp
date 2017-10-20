@@ -87,6 +87,8 @@ CPP Function:
 
 43.Write a C++ program to find root from a given equation.
 
+44..Write a C++ program to find different type series.
+
 
 
 
