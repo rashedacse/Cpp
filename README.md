@@ -95,6 +95,8 @@ CPP Function:
 
 47.Write a C++ program to find number count of a number.
 
+48.Write a C++ program to find & check Armostrong number.
+
 
 
 
