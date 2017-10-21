@@ -93,6 +93,8 @@ CPP Function:
 
 46.Write a C++ program to find word count of a sentence.
 
+47.Write a C++ program to find number count of a number.
+
 
 
 
