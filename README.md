@@ -91,6 +91,8 @@ CPP Function:
 
 45.Write a C++ program to find GCD & LCD.
 
+46.Write a C++ program to find word count of a sentence.
+
 
 
 
