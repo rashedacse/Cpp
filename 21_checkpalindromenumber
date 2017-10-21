@@ -1,11 +1,9 @@
 //check palindrome number.
-
 #include<iostream>
 using namespace std;
 int main()
 { int n,i,rem,temp,sum=0;
-  cout<<"Enter number:\n";
-  cin>>n;
+  cout<<"Enter number:\n"; cin>>n;
   temp=n;
   while(temp)
   {
@@ -22,3 +20,43 @@ int main()
       cout<<n<<" is not a palindrome number.";
   }
 }
+/*/check palindrome cherecter.
+#include<iostream>
+#include<stdio.h>
+#include<string.h>
+using namespace std;
+int main()
+{ char a[100],b[100];
+  cout<<"Enter string:\n"; gets(a);
+  strcpy(b,a);
+  strrev(b);
+  if(strcmp(a,b)==0) { cout<<"Palindrome";}
+  else { cout<<"not!sorry.";}
+}*/
+//check palindrome cherecter without usin library function.
+/*C++ - Check String is Palindrome or Not without
+using Library Function using C++ Program.*/
+#include <iostream>
+#include <string.h>
+using namespace std;
+int main(){
+    char a[100],temp;
+    int i,length,Palindrome = 1;
+    cout << "Enter a word: ";cin >> a;
+    length = strlen(a); //length of the text
+    for(i=0; i<length; i++){
+        if(a[0+i] == a[(length-1)-i])
+        {
+            temp = a[0+i];
+            a[0+i] = a[(length-1)-i];
+            a[(length-1)-i] = temp;
+        }
+       else{ Palindrome=0; break;}
+    }
+    if(Palindrome == 0)
+        cout << a << " is not a Palindrome String";
+    else
+        cout << a << " is a Palindrome String.";
+}
+
+
