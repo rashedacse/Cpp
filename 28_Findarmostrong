@@ -1,0 +1,40 @@
+//find armostrong.
+#include<iostream>
+#include<string.h>
+#include<stdio.h>
+using namespace std;
+int main( )
+{  int n,i,temp,rem,sum=0,min,max;
+    cout<<"Enter min num: "; cin>>min; cout<<"Enter max num: "; cin>>max;
+    for(i=min;i<=max;i++)
+    { temp=i;sum=0;
+      while(temp)
+     { rem=temp%10;
+      temp=temp/10;
+      sum=sum+(rem*rem*rem);
+     }
+    if(sum==i) { cout<<"\t"<<i<<"\t";}
+    }
+}
+//check armostrong number.
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+    int n,sum=0,rem,temp;
+    cout<<"Enter a number:  ";cin>>n;
+    temp=n;
+    while(temp!=0)
+    {
+        rem=temp%10;
+        sum=sum+(rem*rem*rem);
+         temp=temp/10;
+    }
+    if(n==sum)
+        {  cout<<"The given num is armostrong.";    }
+    else{
+        cout<<"The given num is not armostrong.";
+    }
+}
+
