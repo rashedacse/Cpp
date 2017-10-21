@@ -1,0 +1,13 @@
+//Number count.
+#include<iostream>
+#include<string.h>
+#include<stdio.h>
+using namespace std;
+int main( )
+{ int n,count=0;
+  cout<<"Enter number: " ; cin>>n;
+  while(n)
+  { n=n/10; count++;
+  }
+  cout<<count;
+}
