@@ -1,5 +1,4 @@
 // Factorial number.
-
 #include<iostream>
 using namespace std;
 int main()
@@ -14,7 +13,7 @@ int main()
     }
     cout<<"The factorial is =  "<<f;
 }
-
+//using function
 /* #include<iostream>
 using namespace std;
 long fact(long n);
@@ -37,18 +36,24 @@ long fact(long n)
     }
 }*/
 /*/Write a C program to find the factorial using pointers
-#include <iostream>
+#include<iostream>
+#include<string.h>
+#include<stdio.h>
+#include<math.h>
 using namespace std;
-long fact (long n)
-{
- if (n==1)  return 1;
- else return n*fact(n-1);
+long fact(long n);
+int main( ){
+    long n,f,*p;
+    cout<<"Enter a  number: ";cin>>n;
+    p=&n;
+    f=fact(n);
+    cout<<"The binary num. is  "<<f;
 }
-main()
-{
-int n,*p,f;
-cout << "Enter a Number :  ";cin >>n;
-p = &n;f=fact(n);
-cout <<"The factorial value of " <<n<< " is " << f << ".";
-}*/
+long fact(long n)
+{   if(n==1) return 1;
+    else return n*fact(n-1);  
+}
+
+
+
 
