@@ -1,7 +1,8 @@
-/* C++ Program - Check Alphabet or Not */
-#include<iostream.h>
+/* C++ Program - Check Alphabet or Not
+#include<iostream>
 #include<conio.h>
-void main()
+using namespace std;
+int main()
 {
 	char ch;
 	cout<<"Enter a character: ";cin>>ch;
@@ -9,4 +10,19 @@ void main()
 	{   cout<<ch<<" is an alphabet";}
 	else
 	{   cout<<ch<<" is not an alphabet";	}
+}*/
+/* C++ Program - Check Vowel or Not */
+#include<iostream>
+#include<conio.h>
+using namespace std;
+int main()
+{
+	char ch;
+	cout<<"Enter an alphabet : ";cin>>ch;
+	if(ch=='a' || ch=='A' || ch=='e' || ch=='E' ||
+	ch=='i' || ch=='I' || ch=='o' || ch=='O' ||
+	ch=='u' || ch=='U')
+	{   cout<<"This is a vowel";}
+	else
+	{   cout<<"This is not a vowel";}
 }
