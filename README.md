@@ -97,6 +97,8 @@ CPP Function:
 
 48.Write a C++ program to find & check Armostrong number.
 
+49.Write a C++ program to Check Alphabet or Not.
+
 
 
 
