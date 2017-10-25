@@ -30,17 +30,69 @@ int main()
 }
 /*/1,2,3,,,,,n.find even & odd.
 #include<iostream>
+#include<string.h>
+#include<stdio.h>
 #include<math.h>
 using namespace std;
-int main()
-{ int i,n,sum=0,even=0,odd=0;
-  cout<<"Enetr num of elements: "; cin>>n;
-  for(i=1;i<=n;i++)
-  { if(i%2==0) { even=even+i; }
-    else  {odd=odd+i;}
-  }
-    cout<<"even number= "<<even;
-    cout<<"odd number= "<<odd;
+int main( ){
+   int i,n,even,odd;
+   cout<<"Enetr last number:"; cin>>n;
+   cout<<"The even number r= ";
+    for(i=1;i<=n;i++)
+    {  if(i%2==0) cout<<i<<" ";
+    }
+     cout<<"\nThe odd number r= ";
+     for(i=1;i<=n;i++)
+     {  if(i%2==1) cout<<i<<" ";
+     }
 }*/
+/*/write a program in c to find the sum of series:1+(1+2)+(1+2+3)+..+(1+2+..+n)
+#include<stdio.h>
+int main()
+{
+ int n, sum,i,j;
+ printf("Please enter an integer, n = ");
+ scanf("%d", &n);
+ for(i=1;i<=n;i++)
+     for(j=1;j<=i;j++)
+         sum = sum + n;
+ printf("sum = %d", sum);
+ return 0;
+}*/
+/*// The sum of series 1/1 + 1/2 +.... + l/n
+#include <stdio.h>
+#include <iostream>
+using namespace std;
+int main()
+{
+   int n;float sum=0.0, x, i;
+  cout<<"\n Enter the value of number: "; cin>>n;
+   for(i=1.0;i<=n;i++)
+   {    x=1/i;
+       sum = sum +x;
+   }
+   cout<<"\n The sum of series 1/1 + 1/2 +.... + l/n=  "<<sum;
+}*/
+/*/ * C Program to Find find Sum of the Series 1/1! + 2/2! + 3/3! + ……1/N!
+#include <stdio.h>
+#include <iostream>
+using namespace std;
+double sumseries(double);
+int	main()
+    {   double n,value;
+	    cout<<"\n Enter the value:  "; cin>>n;
+	    value = sumseries(n);
+	    cout<<"\n Sum of the above series =  "<<value;
+	}
+double sumseries(double n)
+	{
+	    double sum = 0, f = 1, i;
+	    for (i = 1; i <= n; i++)
+	    {   f = f * i;
+	        sum = sum +(i / f);
+        }
+	    return(sum);
+    }*/
+
 
 
