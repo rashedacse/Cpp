@@ -1,26 +1,17 @@
-/*/Finding GCD and LCM of Given Numbers using C
+#include <stdio.h>
 #include <iostream>
 using namespace std;
-int main()
+int	main()
 {
-    int l,s,rem=0;
-    cout<<"Enter Two Non-Zero Integer Mumbers:"; cin>>l>>s;
-    while(s!= 0)
-    {   rem=l%s; l=s; s=rem;
-    }
-    lcm=l;
-    cout<<"\n GCD of  "<<lcm;
-}*/
-//Finding GCD and LCM of Given Numbers using C
-#include <iostream>
-using namespace std;
-int main()
-{
-    int l,s,rem=0,a,b;
-    cout<<"Enter Two Non-Zero Integer Mumbers:"; cin>>l>>s;
+    int l,s,r,p,q,a,b;
+    cout<<"Largest element: "; cin>>l;
+    cout<<"Smallest element: "; cin>>s;
     a=l; b=s;
-    while(b!= 0)
-    {   rem=a%b; a=b; b=rem;
+    while(s!=0)
+    {   r=l%s;
+        l=s;
+        s=r;
     }
-    cout<<"\n LCM of = "<<(l*s)/a;
+    cout<<"\nThe gcd is: "<<l;
+    cout<<"\nThe lcd is: "<<a*b/l;
 }
