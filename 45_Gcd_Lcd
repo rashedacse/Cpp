@@ -1,3 +1,4 @@
+//Finding GCD and LCM of Given Numbers using C++
 #include <stdio.h>
 #include <iostream>
 using namespace std;
