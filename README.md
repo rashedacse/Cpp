@@ -101,6 +101,8 @@ CPP Function:
 
 50.Write a C++ program to show  prime number sequence where start & total value take from keyboard.
 
+51.Write a C++ program to show  even number sequence where start & total value take from keyboard.
+
 
 
 
