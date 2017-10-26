@@ -99,28 +99,7 @@ CPP Function:
 
 49.Write a C++ program to Check Alphabet or Not.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+50.Write a C++ program to show  prime number sequence where start & total value take from keyboard.
 
 
 
