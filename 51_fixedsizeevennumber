@@ -1,0 +1,25 @@
+//Write a C++ program to show  even number sequence where start & total value take from keyboard.
+#include<iostream>
+#include<string.h>
+#include<stdio.h>
+#include<math.h>
+using namespace std;
+int main()
+{
+	int n,t,count=0;
+	cout<<"ENter min num: "; cin>>n;
+	cout<<"total num: "; cin>>t;
+	while (count < t)
+	{
+		if (n % 2 == 0)
+		{
+			cout << n<<" ";
+			count++;
+		}
+		n++;
+	}
+}
+
+
+
+
