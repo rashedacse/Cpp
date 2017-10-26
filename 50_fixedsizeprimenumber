@@ -1,0 +1,31 @@
+//Write a C++ program to show  prime number sequence where start & total value take from keyboard.
+#include<iostream>
+using namespace std;
+
+int main (){
+    // checking number starting from 10
+    int n,t,count=0 ;
+    bool isPrime;
+    cout<<"Enter min. number:\n";cin>>n;
+    cout<<"Enter total number:\n";cin>>t;
+    // as long as the number is less than or equal to 200
+    while(count<t) {
+        // assume the number is prime
+        isPrime = true;
+        // since prime number is the number that can only be divided by 1 and itself,
+        // check if this number can be divided by any number other than 1 or itself
+        for (int i = 2; i < n; i++) {
+            // if this number can be divided by any number other than 1 or itself,
+            if (n%i == 0) {
+                // then this is not a prime number, no need to check anymore
+                isPrime = false;
+                break;
+            }
+        }
+        if (isPrime == true) {
+            cout << n << ' ';
+            count++;
+        }        // check the next number
+        n++;
+    }
+}
