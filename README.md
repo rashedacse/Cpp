@@ -103,6 +103,8 @@ CPP Function:
 
 51.Write a C++ program to show  even number sequence where start & total value take from keyboard.
 
+52.write a program in c to find the sum of series:1+(1+2)+(1+2+3)+..+(1+2+..+n).
+
 
 
 
