@@ -105,6 +105,8 @@ CPP Function:
 
 52.write a program in c to find the sum of series:1+(1+2)+(1+2+3)+..+(1+2+..+n).
 
+53.Write a program in c that will not print the givn num.
+
 
 
 
