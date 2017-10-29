@@ -111,6 +111,8 @@ CPP Function:
 
 54.Write a C++ program to Check integer or float number.
 
+55.Write a C++ program to Check positive,negative,zero.
+
 
 
 
