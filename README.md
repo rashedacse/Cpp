@@ -121,6 +121,8 @@ CPP Function:
 
 59.Write a C++ program to check uppercase or lowercase letter.
 
+60.Write a C++ program to find odd number where starting & total value are take from keyboard.
+
 
 
 
