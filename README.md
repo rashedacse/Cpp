@@ -115,6 +115,8 @@ CPP Function:
 
 56.Write a C++ program grading system using switch.
 
+57.Write a C++ program adding number using structure.
+
 
 
 
