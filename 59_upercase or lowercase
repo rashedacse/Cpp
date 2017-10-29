@@ -1,0 +1,12 @@
+//ck a string UpperCase or LowerCase:
+#include<stdio.h>
+#include<string.h>
+#include<iostream>
+using namespace std;
+int main()
+{
+    char ch;
+    cout<<"Enter a letter: "; cin>>ch;
+    if(ch>='a' && 'z'>=ch) {cout<<"lowercase";}
+    else{ cout<<"Uppercase.";}
+}
