@@ -97,7 +97,9 @@ CPP Function:
 
 48.Write a C++ program to find & check Armostrong number.
 
-49.Write a C++ program to Check Alphabet or Not.
+49.
+
+54.Write a C++ program to Check integer or float number.Alphabet or Not.
 
 50.Write a C++ program to show  prime number sequence where start & total value take from keyboard.
 
@@ -106,6 +108,8 @@ CPP Function:
 52.write a program in c to find the sum of series:1+(1+2)+(1+2+3)+..+(1+2+..+n).
 
 53.Write a program in c that will not print the givn num.
+
+54.Write a C++ program to Check integer or float number.
 
 
 
