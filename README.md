@@ -117,6 +117,8 @@ CPP Function:
 
 57.Write a C++ program adding number using structure.
 
+58.Write a C++ program multiplication table.
+
 
 
 
