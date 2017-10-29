@@ -1,6 +1,4 @@
-
 //Write a C program to calculate area of an equilateral triangle.
-
 #include<iostream>
 #include<math.h>
 using namespace std;
