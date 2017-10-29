@@ -1,0 +1,19 @@
+//Add Number Using structure.
+#include <stdio.h>
+#include<string.h>
+#include <iostream>
+#include<math.h>>
+using namespace std;
+struct sum
+{
+    int a,b;
+};
+int main()
+{
+    int result;
+    struct sum s;
+    cout<<"Take two number: ";cin>>s.a>>s.b;
+    result = s.a+s.b;
+    cout<<"\n The Sum Of Two Numbers: "<<result;
+    return 0;
+}
