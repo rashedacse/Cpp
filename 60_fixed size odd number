@@ -1,0 +1,18 @@
+//Write a C++ program to show  odd number sequence where start & total value take from keyboard.
+#include<iostream>
+#include<string.h>
+#include<math.h>
+using namespace std;
+int main()
+{
+   int i=17,n,count=0,t;
+   cout<<"Enter starting  number:"; cin>>n;
+   cout<<"Enter total value: "; cin>>t;
+   while(count<t)
+   {    if(n%2!=0)  //find odd number.
+        {   cout<<n<<" ";
+            count++;
+
+        }n++;
+   }
+}
