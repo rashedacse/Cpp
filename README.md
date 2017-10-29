@@ -119,6 +119,8 @@ CPP Function:
 
 58.Write a C++ program multiplication table.
 
+59.Write a C++ program to check uppercase or lowercase letter.
+
 
 
 
