@@ -123,6 +123,8 @@ CPP Function:
 
 60.Write a C++ program to find odd number where starting & total value are take from keyboard.
 
+61.Write a C++ program to find out lexicographical order.
+
 
 
 
