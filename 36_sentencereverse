@@ -1,6 +1,4 @@
-
 //Sentence reverse.
-
 #include<iostream>
 #include <stdio.h>
 #include <string.h>
@@ -21,5 +19,19 @@ int main()
     }
       cout<<" ";
 }
-
+}
+//using recursion.
+#include<iostream>
+using namespace std;
+void reverse(char *str)
+{   if (*str)
+   {    reverse(str+1);
+        cout<<*str;
+    }
+}
+int main()
+{
+char a[] = "Geeks for Geeks";
+reverse(a);
+return 0;
 }
