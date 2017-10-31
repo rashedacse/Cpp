@@ -1,0 +1,26 @@
+ //String in lexicographical order (Disco nary order)
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+#include<iostream>
+using namespace std;
+int main()
+{
+    int i,j,n;   char a[100][100],temp[100];
+    cout<<"Enter num words: ";cin>>n;
+    for(i=0;i<n;i++)
+     {gets(a[i]);}
+    for(i=0;i<n-1;i++)
+    for(j=i+1;j<n;j++)
+    {   if(strcmp(a[i],a[j])>0)
+
+        {   strcpy(temp,a[i]);
+            strcpy(a[i],a[j]);
+            strcpy(a[j],temp);
+        }
+    }
+    cout<<"String in lexographical order:";
+    for(i=0;i<n;i++)
+    {   cout<<a[i];
+    }
+}
