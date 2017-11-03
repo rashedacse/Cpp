@@ -1,5 +1,4 @@
 //Fibbonecie number.
-
 #include<iostream>
 using namespace std;
 int main()
@@ -16,5 +15,48 @@ int main()
       }
        cout<<i<<" ";
    }
+}
+//using recurtion.
+/*/Fibbonecie number.
+#include<iostream>
+using namespace std;
+int main()
+{ int a=0,b=1,i,c,n;
+  cout<<"Enter last digit: "; cin>>n;
+  for(c=0;c<n;c++)
+  {
+      if(c<=1){ i=c; }
+      else
+      {   i=a+b;
+          a=b;
+          b=i;
+      }
+       cout<<i<<" ";
+   }
+}*/
+// Fibonacii Seris
+#include<iostream>
+#include<iostream>
+#include<stdio.h>
+#include<string.h>
+using namespace std;
+int fibo(int );
+int main()
+{
+  int i,n;
+   cout<<"Take The Limit Of The Serise: \n ";   cin>>n;
+    for(i=0;i<n;i++)
+    {   cout<<fibo(i)<<" ";
+    }
+    return 0;
+}
+int fibo(int i)
+{
+    if(i==1 || i == 0)
+    {
+        return i;
+    }
+    else
+        return (fibo(i-2)+fibo(i-1));
 }
 
