@@ -1,21 +1,4 @@
 //Write a C program to find power of any number x ^ y
-/*#include<iostream>
-using namespace std;
-int main()
-{
-     int exponent;
-     float base,result=1;
-     cout<<"Enter base and exponent:";
-     cin>>base>>exponent;
-     cout<<base<<"^"<<exponent<<"=";
-     while(exponent!=0)
-     {
-         result *=base;
-         --exponent;
-     }
-     cout<<result;
-     return 0;
-}*/
 #include<iostream>
 #include<math.h>
 using namespace std;
@@ -25,8 +8,23 @@ int main()
      float base,result;
      cout<<"Enter base and exponent:";
      cin>>base>>exponent;
-     //cout<<base<<"^"<<exponent<<"=";
     result=pow(base,exponent);
      cout<<result;
-     return 0;
+ }
+ //calculate the power of a number With Recartion
+#include<iostream>
+#include<iostream>
+#include<stdio.h>
+#include<string.h>
+using namespace std;
+int power(int,int);
+int main()
+{   int b,e;
+    cout<<"Enter base & exponential:  "; cin>>b>>e;
+    cout<<"THe result are: "<<power(b,e);
 }
+int power(int b,int e)
+{   if(e==1) {return b;}
+    else{ return b*power(b,e-1);}
+}
+
