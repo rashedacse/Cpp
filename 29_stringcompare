@@ -17,3 +17,25 @@ int main()
         cout<<"Not equal.";
     }
 }
+//Program to Compare Two Strings Without using strcmp()
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+    char a[100],b[100];
+int i,temp = 0;
+cout<<"Enter the string1 value:\n"; gets(a);
+cout<<"\nEnter the String2 value:\n"; gets(b);
+for(i=0; (a[i]!='\0')||(b[i]!='\0'); i++)
+{
+    if(a[i] != b[i])
+    {   temp = 1;
+        break;
+    }
+}
+if(temp == 0)
+cout<<"Both strings are same.";
+else
+cout<<"Both strings not same.";
+}
+
