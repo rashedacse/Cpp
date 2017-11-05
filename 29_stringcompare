@@ -23,17 +23,17 @@ int main()
 int main()
 {
     char a[100],b[100];
-int i,temp = 0;
+int i,temp = 1;
 cout<<"Enter the string1 value:\n"; gets(a);
 cout<<"\nEnter the String2 value:\n"; gets(b);
 for(i=0; (a[i]!='\0')||(b[i]!='\0'); i++)
 {
     if(a[i] != b[i])
-    {   temp = 1;
+    {   temp = 0;
         break;
     }
 }
-if(temp == 0)
+if(temp == 1)
 cout<<"Both strings are same.";
 else
 cout<<"Both strings not same.";
