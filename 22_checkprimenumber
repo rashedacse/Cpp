@@ -51,3 +51,24 @@ int primeno(int n, int i)
     else { return  primeno(n, i - 1);}
 
 }
+//Find prime num serires&count using recursion.
+#include<iostream>
+using namespace std;
+int primeno(int,int);
+int main()
+{   int isprim,min,max,n,i,count=0;
+
+   cout<<"Enter min num: "; cin>>min; cout<<"Enter max num: "; cin>>max;
+   for(i=min;i<=max;i++)
+   {    isprim=1;
+       {isprim=primeno(i,i/2);
+            if(isprim==1){cout<<i<<" "; count++; }  }
+   }
+    cout<<"TOtal num: "<<count;
+}
+int primeno(int n,int e)
+{
+    if(e==1 ||(n==1)) {return 1;}
+    else if(n%e==0){return 0; }
+    else {return primeno(n,e-1);}
+}
