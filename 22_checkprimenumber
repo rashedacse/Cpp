@@ -24,6 +24,88 @@ int main()
         cout<<n<<" is not a prime number.\n";
      }
 }
+//Write a C++ program to find prime number & also find location,search element.
+#include<iostream>
+using namespace std;
+int main()
+{   int i,j,min,max,a[50],isprime, count=0;
+    cout<<"Enter min. number:\n";cin>>min;
+    cout<<"Enter max number:\n";cin>>max;
+
+    for(i=min;i<=max;i++){
+        isprime=1;
+        for(j=2;j<i;j++){
+            if(i%j==0) {
+                    isprime=0;break;
+            }
+        }
+        if(isprime==1 && count<7){
+            cout<<i<<" ";
+            count++;
+        }
+    }
+}
+
+/*//find and search element.
+#include<iostream>
+using namespace std;
+int main()
+{
+    int i,j,min,max,a[50],isprime,count=0,x;
+    cout<<"Enter min. number:\n";cin>>min;
+    cout<<"Enter max number:\n";cin>>max;
+    for(i=min;i<=max;i++){
+        isprime=1;
+        for(j=2;j<=i;j++) {
+            if(i%j==0){
+                isprime=0;
+                break;
+                }
+        }
+
+    if(isprime==1){
+        a[count]=i;
+        cout<<i<<" ";
+        count++;
+    }
+    }
+    cout<<"\nEnter position that u want to found:\n";cin>>x;
+    cout<<"The position number is "<<a[x-1];
+
+}*/
+/*/find and search position.
+#include<iostream>
+using namespace std;
+int main()
+{
+    int i,j,min,max,a[50],isprime,count=0,x,k;
+    cout<<"Enter min. number:\n"; cin>>min;
+    cout<<"Enter max number:\n"; cin>>max;
+    for(i=min;i<=max;i++){
+        isprime=1;
+        for(j=2;j<i;j++){
+            if(i%j==0){isprime=0;break;}
+        }
+    if(isprime==1){
+        a[count]=i;
+        cout<<i<<" ";
+        count++;
+        }
+    }
+    cout<<"\nEnter element that u want to found location:";cin>>x;
+    for(k=0;k<count;k++)
+    {
+        {if(a[k]==x)  break;
+        }
+    }
+    if(k<count){
+      cout<<"Entered element is found at location\n "<<k+1;
+    }
+    else
+    {  cout<<"sorry!not found.";
+    }
+}*/
+
 //C Program to find whether a Number is Prime or Not using Recursion
 #include<conio.h>
 #include<string.h>
