@@ -1,0 +1,17 @@
+
+
+//Write a program to enter a cherecter print its ASCII value.
+#include<iostream>
+#include<string.h>
+#include<stdio.h>
+#include<math.h>
+using namespace std;
+int main()
+{
+ char n;
+ cout<<"E a charecter: "; cin>>n;
+ cout<<"THe ascii value of "<<n<<" is  "<<int(n);
+}
+
+
+
