@@ -4,7 +4,6 @@
 using namespace std;
 int main()
 {
-
     int x;
     float a,b,y;
     char name[50];
@@ -19,8 +18,4 @@ int main()
     y=a-b;
     cout<< "sumation of x="<<x<<endl;
     cout<< "division of y="<<y<<endl;
-    return 0;
-
-
-
 }
