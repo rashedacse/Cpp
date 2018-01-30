@@ -131,6 +131,10 @@ CPP Function:
 
 64.Write a C++ program to enter a cherecter print its ASCII value.
 
+65.Write a C++ program to identity a character or a digit using builtin function.
+
+
+
 
 
 
