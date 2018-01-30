@@ -1,0 +1,14 @@
+
+//Write a C++ program to identity a character or a digit using builtin function.
+#include<iostream>
+#include<string.h>
+#include<stdio.h>
+using namespace std;
+int main()
+{
+   char ch;
+   cout<<"Enter a character:"; cin>>ch;
+   if(isalpha(ch)>0){cout<<"This is a character:"<<ch;}
+   else if(isdigit(ch)>0)  {cout<<"This is a digit:"<<ch;}
+   else {cout<<"ENter num is not a character or digit.";}
+}
