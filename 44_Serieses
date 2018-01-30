@@ -50,14 +50,14 @@ int main( ){
 #include<stdio.h>
 int main()
 {
- int n, sum,i,j;
- printf("Please enter an integer, n = ");
- scanf("%d", &n);
- for(i=1;i<=n;i++)
-     for(j=1;j<=i;j++)
-         sum = sum + n;
- printf("sum = %d", sum);
- return 0;
+int i,sum=0,super_sum=0,n;
+   cout<<"Enter last number: "; cin>>n;
+   for(i=1;i<=n;i++)
+   {
+       sum=sum+i;
+       super_sum=super_sum+sum;
+   }
+   cout<<"1+(1+2)+(1+2+3)+........+(1+2+3+...+n)=   "<<super_sum;
 }*/
 /*// The sum of series 1/1 + 1/2 +.... + l/n
 #include <stdio.h>
