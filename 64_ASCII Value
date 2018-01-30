@@ -12,6 +12,20 @@ int main()
  cout<<"E a charecter: "; cin>>n;
  cout<<"THe ascii value of "<<n<<" is  "<<int(n);
 }
+////Write a C++ program to identity a character ASCCI value using builtin function.
+#include<iostream>
+#include<string.h>
+#include<stdio.h>
+using namespace std;
+int main()
+{
+   char ch;
+   cout<<"Enter a character:"; cin>>ch;
+   if(islower(ch)){cout<<"The lowercase ASCCI value is:"<<tolower(ch);}
+   else if(isupper(ch))  {cout<<"The uppercase ASCII value  is:"<<toupper(ch);}
+   else {cout<<"ENter num is not a character";}
+}
+
 
 
 
