@@ -135,6 +135,10 @@ CPP Function:
 
 66.Write a C++ program to PRint 1-10 number except 5.
 
+67.Write a C++ program to enter lenth in centimeter & convert into meter & kilometer.
+
+
+
 
 
 
