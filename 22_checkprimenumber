@@ -64,7 +64,7 @@ int main()
         }
 
     if(isprime==1){
-        a[count]=i;
+        a[count]=i;if(i==1) continue;
         cout<<i<<" ";
         count++;
     }
@@ -87,7 +87,7 @@ int main()
             if(i%j==0){isprime=0;break;}
         }
     if(isprime==1){
-        a[count]=i;
+        a[count]=i;if(i==1) continue;
         cout<<i<<" ";
         count++;
         }
@@ -144,7 +144,7 @@ int main()
    for(i=min;i<=max;i++)
    {    isprim=1;
        {isprim=primeno(i,i/2);
-            if(isprim==1){cout<<i<<" "; count++; }  }
+            if(isprim==1){if(i==1) continue;cout<<i<<" "; count++; }  }
    }
     cout<<"TOtal num: "<<count;
 }
