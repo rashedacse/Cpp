@@ -1,0 +1,12 @@
+
+//Write a C++ program to enter lenth in centimeter & convert into meter & kilometer.
+#include<iostream>
+using namespace std;
+int main()
+{
+    float cent,meter,Km;
+    cout<<"Enter centimeter: "; cin>>cent;
+   meter=cent/100;
+   Km=cent/100000;
+    cout<<"METER= "<<meter;    cout<<"\n KILOMETER= "<<Km;
+}
