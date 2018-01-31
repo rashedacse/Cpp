@@ -133,6 +133,8 @@ CPP Function:
 
 65.Write a C++ program to identity a character or a digit using builtin function.
 
+66.Write a C++ program to PRint 1-10 number except 5.
+
 
 
 
