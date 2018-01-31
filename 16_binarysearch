@@ -44,6 +44,8 @@ int main()
   }
   if(first>last) { cout<<"Sorry";}
 }*/
+
+//binary search using recursion.
 #include<iostream>
 using namespace std;
 int binsearch(int[], int, int, int);
@@ -58,7 +60,6 @@ int main()
    if (position != -1) {    cout<<"\nNumber present at : "<<position + 1;}
     else    cout<<"\n The number is not present in the list";
 }
-// Binary Search function
 int binsearch(int a[], int x, int low, int high)
 {
    int mid;
