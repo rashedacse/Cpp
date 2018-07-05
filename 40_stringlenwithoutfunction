@@ -1,6 +1,4 @@
 //string length without library function.
-
-
 #include<iostream>
 #include <stdio.h>
 #include <string.h>
@@ -9,14 +7,10 @@ int main()
 {
  char a[100];
  int i,j,len=0;
- cout<<"Enter the Text:";
- gets(a);
-
+ cout<<"Enter the Text:"; gets(a);
  for(i=0;a[i]!='\0';i++)
  {
    len++;
  }
   cout<<" The length of the given value: "<<len;
-
-
 }
