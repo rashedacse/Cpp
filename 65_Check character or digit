@@ -23,7 +23,7 @@ int main()
    char ch;
    cout<<"Enter a character:"; cin>>ch;
    if((ch>='a' && ch<='z')||(ch>='A' && ch<='Z')){cout<<"This is a character:"<<ch;}
-   else if((ch>=48) && (ch<=56))  {cout<<"This is a digit:"<<ch;}
-   else {cout<<"ENter num is not a character or digit.";}
+   else if((ch>='0') && (ch<='9'))  {cout<<"This is a digit:"<<ch;}
+   else {cout<<"ENter num is a special cherecter.";}
 }*/
 
