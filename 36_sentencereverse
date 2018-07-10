@@ -21,19 +21,19 @@ int main()
 //using recursion.
 #include<iostream>
 using namespace std;
-void reverse(char *str)
-{   if (*str)
-   {    reverse(str+1);
-        cout<<*str;
-    }
-}
+int reverse(char *a);
 int main()
 {
-char a[] = "Geeks for Geeks";
+char a[100];cout<<"Enter sentence: "; gets(a);
 reverse(a);
 return 0;
 }
-
+int reverse(char *a)
+{   if (*a)
+   {    reverse(a+1);
+        cout<<*a;
+    }
+}
 /*//i love rose reverse this (rose   love rose   i love rose)
 #include<iostream>
 #include<string.h>
