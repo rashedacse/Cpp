@@ -5,17 +5,11 @@ using namespace std;
 int main()
 {
     char a[100],b[100];
-    cout<<"The 1st string:  ";
-    cin>>a;
-    cout<<"THe 2nd string:  ";
-    cin>>b;
+    cout<<"The 1st string:  "; cin>>a;
+    cout<<"THe 2nd string:  ";   cin>>b;
     if(strcmp(a,b)==0)
-    {
-        cout<<" The string r equal.";
-    }
-    else{
-        cout<<"Not equal.";
-    }
+    {        cout<<" The string r equal.";   }
+    else{       cout<<"Not equal.";   }
 }
 //Program to Compare Two Strings Without using strcmp()
 #include <stdio.h>
