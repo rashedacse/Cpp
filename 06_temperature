@@ -1,6 +1,6 @@
 
 //Write a C program to enter temperature in Celsius and convert it into Fahrenheit.
-
+//c/5=(f-32)/9=(k-273)/5
 #include<iostream>
 using namespace std;
 int main()
