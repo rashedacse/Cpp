@@ -13,7 +13,7 @@ int main()
    else {cout<<"ENter num is not a character or digit.";}
 }
 
-/*//Write a C++ program to identity a character or a digit using builtin function.
+/*//Write a C++ program to identity a character or a digit without using builting function.
 #include<iostream>
 #include<string.h>
 #include<stdio.h>
